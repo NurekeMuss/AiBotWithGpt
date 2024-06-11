@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Initialize OpenAI client
 client = OpenAI(
     # your API key here
-    api_key="sk-proj-fwnYpHvv4nOWNDY8wAwtT3BlbkFJPeLKyZwL8UhaNwrX41x4",
+    api_key="",
 )
 
 def chat_gpt(prompt):
